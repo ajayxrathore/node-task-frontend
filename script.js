@@ -175,7 +175,6 @@ $(document).ready(function () {
       </tbody>
     </table>
   `;
-          console.log(userhtml);
           $(".div-container").hide();
           $(".view-form").show();
           $(".viewusers").html(userhtml).show();

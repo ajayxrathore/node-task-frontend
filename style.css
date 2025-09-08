@@ -80,6 +80,9 @@ button:hover {
 
   background: #0e7cf1;
 }
+#viewusersbtn:hover {
+  background: #064a9c;
+}
 .view-form {
   margin-top: 10px;
   display: none;

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node-Task</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="div-container">
+      <form class="form-container" id="userform">
+        <label for="firstName">First Name :</label>
+        <input
+          type="text"
+          name="firstName"
+          id="firstName"
+          placeholder="Enter your first name"
+        />
+        <span class="error" id="firstNameError"></span>
+
+        <label for="lastName">Last Name :</label>
+        <input
+          type="text"
+          name="lastName"
+          id="lastName"
+          placeholder="Enter your last name"
+        />
+        <span class="error" id="lastNameError"></span>
+
+        <label for="mobile">Mobile No. :</label>
+        <input
+          type="text"
+          name="mobile"
+          id="mobile"
+          placeholder="Enter your mobile no."
+        />
+        <span class="error" id="mobileError"></span>
+
+        <label for="email">Email :</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <span class="error" id="emailError"></span>
+
+        <label for="street">Street :</label>
+        <input
+          type="text"
+          name="street"
+          id="street"
+          placeholder="Enter your street"
+        />
+        <span class="error" id="streetError"></span>
+
+        <label for="city">City :</label>
+        <input
+          type="text"
+          name="city"
+          id="city"
+          placeholder="Enter your city"
+        />
+        <span class="error" id="cityError"></span>
+
+        <label for="state">State :</label>
+        <input
+          type="text"
+          name="state"
+          id="state"
+          placeholder="Enter your state"
+        />
+        <span class="error" id="stateError"></span>
+
+        <label for="country">Country :</label>
+        <input
+          type="text"
+          name="country"
+          id="country"
+          placeholder="Enter your country"
+        />
+        <span class="error" id="countryError"></span>
+
+        <label for="loginId">Login Id :</label>
+        <input
+          type="text"
+          name="loginId"
+          id="loginId"
+          placeholder="Enter your login id (8 characters)"
+        />
+        <span class="error" id="loginIdError"></span>
+
+        <label for="password">Password :</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter your password (minimum 6 characters)"
+        />
+        <span class="error" id="passwordError"></span>
+        <div class="button-row">
+          <button type="submit">Save</button>
+          <button type="button" id="viewusersbtn">View Users</button>
+        </div>
+      </form>
+      <br />
+    </div>
+    <div id="responseMessage">
+      <!-- Response message will be displayed here -->
+    </div>
+    <div class="viewusers">
+      <!-- Users will be displayed here -->
+    </div>
+    <button class="view-form">View Form</button>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+</html>

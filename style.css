@@ -95,6 +95,7 @@ button:hover {
 
 #responseMessage {
   background: #e6f9ed;
+  display: none;
   color: #1b5e20;
   border: 1px solid #b2dfdb;
   padding: 12px 16px;

@@ -92,7 +92,7 @@ $(document).ready(function () {
         if (!isformValid) {
           $("#responseMessage").html(
             '<p style="color:red;">Please fix the errors in the form</p>'
-          );
+          ).show();
           return;
         }
 
@@ -120,7 +120,7 @@ $(document).ready(function () {
             // }
             $("#responseMessage").html(
               '<p style="color:green;">' + msg + "</p>"
-            );
+            ).show();
             $("#userform")[0].reset();
           },
           error: function (jqXHR, status, error) {

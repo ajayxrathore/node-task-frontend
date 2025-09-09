@@ -114,10 +114,10 @@ $(document).ready(function () {
           data: JSON.stringify(formData),
           contentType: "application/json",
           success: function (data, textStatus, jqXHR) {
-            let msg = "User created successfully";
-            if (data && data.message) {
-              msg = data.message;
-            }
+            let msg = "Your account has been created.";
+            // if (data && data.message) {
+            //   msg = data.message;
+            // }
             $("#responseMessage").html(
               '<p style="color:green;">' + msg + "</p>"
             );
